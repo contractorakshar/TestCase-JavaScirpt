@@ -1,0 +1,22 @@
+{
+  "name": "testcase-javascirpt",
+  "version": "1.0.0",
+  "description": "mocha",
+  "main": "test.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contractorakshar/TestCase-JavaScirpt.git"
+  },
+  "keywords": [
+    "mocha"
+  ],
+  "author": "sujal shah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/contractorakshar/TestCase-JavaScirpt/issues"
+  },
+  "homepage": "https://github.com/contractorakshar/TestCase-JavaScirpt#readme"
+}
