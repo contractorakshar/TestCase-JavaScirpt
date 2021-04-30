@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/contractorakshar/TestCase-JavaScirpt/issues"
   },
-  "homepage": "https://github.com/contractorakshar/TestCase-JavaScirpt#readme"
+  "homepage": "https://github.com/contractorakshar/TestCase-JavaScirpt#readme",
+  "devDependencies": {
+    "rewire": "^5.0.0"
+  }
 }
