@@ -1,5 +1,3 @@
-//cmd> mocha Eular/2/fibonacci
-
 function fibonacci() {
     let i = 1, j = 1, sum = 0;
     while (i < 4000000) {

@@ -7,13 +7,9 @@ describe('LargestPrime', function () {
     it('should the largest prime factor of the number 600851475143', function () {
         assert.strictEqual(largestPrime(), 6857);
     });
-    it('should not null', function () {
-        assert.notStrictEqual(largestPrime(), null);
-    });
-    it('should not undefined', function () {
-        assert.notStrictEqual(largestPrime(), undefined);
-    });
 });
+
+//cmd> mocha Eular/3/largestPrime.test.js
 
 // LargestPrime
 // √ should the largest prime factor of the number 600851475143
