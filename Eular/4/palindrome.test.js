@@ -13,6 +13,8 @@ describe('palindrome', function () {
     });
 });
 
+// cmd> mocha Eular/4/palindrome.test.js 
+
 // Output:
 
 // palindrome
