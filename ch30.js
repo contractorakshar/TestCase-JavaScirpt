@@ -28,14 +28,11 @@ const myMap2=new Map()
 .set(2,'two');
 describe('Map', function() {
     it(' map with set', function() {
-        it('should return undefined',function(){
-
-        
-    
-        console.log(myMap2);
-        assert.equal(myMap2.size,2);
-        assert.equal(myMap2.get('bar'),1);
-
+      console.log(myMap2);
+      assert.equal(myMap2.size,2);
     });
+        it('should return undefined',function(){
+              assert.equal(myMap2.get('bar'),1);
+
   });
 });
