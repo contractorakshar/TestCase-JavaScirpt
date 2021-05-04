@@ -15,3 +15,13 @@ describe('Array', function() {
   1 passing
 
 */
+describe('Variable', function() {
+  describe('const and let', function() {
+    it('should return error if value assign to const ', function() {
+      const a=5;
+      let b=4;
+      assert.strictEqual(a=7, 'type error');
+      assert.strictEqual(b=7, 'assigned no error');
+    });
+  });
+}); 
